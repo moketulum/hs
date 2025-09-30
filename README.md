@@ -1,4 +1,3 @@
-# 🚀 HubSpot Clone Project
 
 ## 📋 Descripción
 
