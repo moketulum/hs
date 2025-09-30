@@ -1,0 +1,44 @@
+@https://firebaselogging.googleapis.com/v0cc/log/logging-pa.googleapis.com/v1/firelog/legacy/batchttps://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog
+AdMob and Firebase are in use in this app, but are not linked. For analytics data consistency and integrity, it is highly recommended that you link your AdMob app to the corresponding Firebase app and re-download the GoogleServices-Info.plist file. See https://support.google.com/admob/answer/6383165 for more information.
+Deferring to Google Analytics for Firebase for event data collection. https://goo.gl/YNbdK2
+Firebase Instance ID is not compatible with Firebase 8.x+. Please remove the dependency from the app. See the documentation at https://firebase.google.com/docs/cloud-messaging/ios/client#fetching-the-current-registration-token.
+Google App ID from GoogleService-Info.plist is empty. Please, define GOOGLE_APP_ID in GoogleService-Info.plist for Analytics to work reliably. See https://goo.gl/txkZbE
+http://example.invalid
+https://%@.app-analytics-services-att.com/a
+https://%@.app-analytics-services.com/a
+https://%@/o/oauth2/revoke?token=%@
+https://%@/o/oauth2/v2/auth
+https://%@/oauth2/v3/userinfo?access_token=%@
+https://%@/token
+https://accounts.google.com/o/oauth2/v2/auth
+https://api-adservices.apple.com/api/v1/
+https://app-analytics-services-att.com/a
+https://app-analytics-services.com/a
+https://app-analytics-services.com/config/app/%@?
+https://app-analytics-services.com/sdk-exp
+https://app-analytics-services.com/skan
+https://app.hubspot.com/mobile/conversations
+https://app.hubspot.com/mobile/copilot
+https://app.hubspot.com/mobile/scanner
+https://console.firebase.google.com/
+https://dummyapiverylong-dummy.google.com/dummy/api/very/long
+https://firebase-settings.crashlytics.com
+https://firebaseinstallations.googleapis.com
+https://help.hubspot.com
+https://itunes.apple.com/us/app/chrome/id535886823
+https://itunes.apple.com/us/app/firefox-web-browser/id989804926
+https://itunes.apple.com/us/app/opera-mini-web-browser/id363729560
+https://private.hubapi.com
+https://private.hubapiqa.com
+https://www.googleadservices.com/pagead/conversion/app/deeplink?sdk_version=%@&rdid=%@&id_type=idfa&bundleid=%@&retry=%@
+https://www.googleapis.com/auth/userinfo.email
+https://www.googleapis.com/auth/userinfo.profile
+https://www.googleapis.com/oauth2/v4/token
+OAuth error: %@ - https://tools.ietf.org/html/rfc6749#section-5.2
+The AdSupport Framework is not currently linked. Some features will not function properly. Learn more at http://goo.gl/9vSsPb
+The default Firebase app has not yet been configured. Add `FirebaseApp.configure()` to your application initialization. This can be done in in the App Delegate's application(_:didFinishLaunchingWithOptions:)` (or the `@main` struct's initializer in SwiftUI). Read more: https://firebase.google.com/docs/ios/setup#initialize_firebase_in_your_app
+To disable debug logging set the following application argument: %@ (see http://goo.gl/RfcP7r)
+To disable verbose logging set the following application argument: %@ (see http://goo.gl/RfcP7r)
+To enable debug logging set the following application argument: %@ (see http://goo.gl/RfcP7r)
+To enable verbose logging set the following application argument: %@ (see http://goo.gl/RfcP7r)
+WARN  [%s:%d] [Crashlytics] App is attached to a debugger, to see the crash reports please detach from the debugger, https://firebase.google.com/docs/crashlytics/get-started?platform=ios#force-test-crash
